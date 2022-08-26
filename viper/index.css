@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4, p, a {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.zoom-img {
+    width: 80vw;
+    z-index: 2;
+    position: fixed;
+    left: 10vw;
+    top: 5vh;
+}
+
+#heading {
+    margin: 0 auto;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+}
+
+#heading img {
+    width: 25%;
+    display: block;
+}
+
+#content img {
+    height: 42%;
+    display: block;
+    margin: 0.5rem;
+}
+
+#content {
+    padding-left: 15vw;
+    width: 45vw;
+    font-size: 2rem;
+}
+
+.Askill {
+    height: 100vh;
+}
+
+.skill-name {
+    padding-top: 3vh;
+    margin-bottom: 0.5rem;
+}
+
+.explain {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Askill hr {
+
+}
+
+#sidebar {
+    width: 20vw;
+    position: fixed;
+    top: 25vh;
+    right: 5vw;
+    z-index: 1;
+    overflow-x: hidden;
+    padding: 2rem;
+    background-color: #cfcfcf;
+}
+
+#sidebar a {
+    display: block;
+    text-decoration: none;
+}

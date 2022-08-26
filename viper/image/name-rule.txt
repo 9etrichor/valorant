@@ -1,0 +1,4 @@
+which side
+location
+ability
+0 is how to use/ 1 is result
